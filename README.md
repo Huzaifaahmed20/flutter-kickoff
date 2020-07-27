@@ -8,7 +8,7 @@ Flutter starter kit with stacked architecture
 ## How to:
 
 ### **Add new screen**
-- create new folder with **ui/views** with respective name.
+- create new folder in **ui/views** with respective name.
 
 - create two files in that folder ending with **View** and **ViewModel** , e.g. **HomeView** and **HomeViewModel**.
 
@@ -27,3 +27,6 @@ Flutter starter kit with stacked architecture
 - After that run this command in command line,
 
          flutter pub run build_runner build
+
+### **Add new translation**
+- Click on link to view full configuration of translations [Easy Localization](https://pub.dev/packages/easy_localization).

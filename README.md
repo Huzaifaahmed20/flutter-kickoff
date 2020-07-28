@@ -1,4 +1,4 @@
-# Flutter Kickoff
+# Flutter KickOff
 
 Flutter starter kit with stacked architecture
 

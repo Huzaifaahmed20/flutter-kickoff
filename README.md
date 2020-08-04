@@ -3,7 +3,8 @@
 Flutter starter kit with stacked architecture
 
 ## Todo
-- Implement theme configuration
+- Implement theme configuration.
+- Implement flavors configuration.
 
 ## How to:
 

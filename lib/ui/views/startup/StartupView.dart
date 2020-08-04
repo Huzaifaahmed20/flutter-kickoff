@@ -8,9 +8,14 @@ class StartupView extends StatelessWidget {
     return ViewModelBuilder<StartupViewModel>.reactive(
       onModelReady: (model) => model.handleStarupLogic(),
       builder: (context, model, child) {
-        return Container(
-          child: Center(
-            child: CircularProgressIndicator(),
+        return Scaffold(
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Center(child: CircularProgressIndicator()),
+              SizedBox(height: 40),
+              Center(child: Text('Splash screen will be here'))
+            ],
           ),
         );
       },

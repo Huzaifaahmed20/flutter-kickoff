@@ -10,14 +10,17 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
 import '../ui/views/home/HomeView.dart';
+import '../ui/views/login/LoginView.dart';
 import '../ui/views/startup/StartupView.dart';
 
 class Routes {
   static const String startupView = '/';
   static const String homeView = '/home-view';
+  static const String loginView = '/login-view';
   static const all = <String>{
     startupView,
     homeView,
+    loginView,
   };
 }
 
@@ -27,6 +30,7 @@ class Router extends RouterBase {
   final _routes = <RouteDef>[
     RouteDef(Routes.startupView, page: StartupView),
     RouteDef(Routes.homeView, page: HomeView),
+    RouteDef(Routes.loginView, page: LoginView),
   ];
   @override
   Map<Type, AutoRouteFactory> get pagesMap => _pagesMap;
@@ -40,6 +44,12 @@ class Router extends RouterBase {
     HomeView: (data) {
       return MaterialPageRoute<dynamic>(
         builder: (context) => HomeView(),
+        settings: data,
+      );
+    },
+    LoginView: (data) {
+      return MaterialPageRoute<dynamic>(
+        builder: (context) => LoginView(),
         settings: data,
       );
     },

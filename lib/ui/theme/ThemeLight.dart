@@ -6,7 +6,7 @@ class LightTheme {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         primarySwatch: AppColors.primarySwatch,
         // change scaffold background color according to your need
-        scaffoldBackgroundColor: Colors.white,
+        // scaffoldBackgroundColor: Colors.white,
         brightness: Brightness.light,
         appBarTheme: AppBarTheme(
           // change app bar color according to you need

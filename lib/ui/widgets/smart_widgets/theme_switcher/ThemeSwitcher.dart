@@ -8,9 +8,16 @@ class ThemeSwitcher extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ViewModelBuilder<ThemeSwitcherViewModel>.reactive(
-      builder: (context, model, child) => Switch.adaptive(
-        value: model.isDarkMode,
-        onChanged: model.updateTheme,
+      builder: (context, model, child) => Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text('Light mode'),
+          Switch.adaptive(
+            value: model.isDarkMode,
+            onChanged: model.updateTheme,
+          ),
+          Text('Dark Mode'),
+        ],
       ),
       viewModelBuilder: () => ThemeSwitcherViewModel(),
     );

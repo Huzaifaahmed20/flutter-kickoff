@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_kickoff/AppViewModel.dart';
+import 'package:flutter_kickoff/ui/views/AppViewModel.dart';
 import 'package:flutter_kickoff/app/locator.dart';
 import 'package:flutter_kickoff/app/router.gr.dart';
 import 'package:flutter_kickoff/services/ThemeService.dart';

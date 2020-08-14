@@ -10,8 +10,17 @@ class HomeView extends StatelessWidget {
     return ViewModelBuilder<HomeViewModel>.reactive(
       builder: (context, model, child) {
         return Scaffold(
-          body: Center(
-            child: ThemeSwitcher(),
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'Switch theme with theme switcher',
+                style: Theme.of(context).textTheme.headline3,
+              ),
+              Center(
+                child: ThemeSwitcher(),
+              ),
+            ],
           ),
         );
       },

@@ -18,6 +18,5 @@ class ThemeService with ReactiveServiceMixin {
 
   void switchTheme(bool value) {
     _isDarkMode.value = value;
-    print(isDarkMode);
   }
 }

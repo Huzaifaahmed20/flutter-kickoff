@@ -5,7 +5,6 @@ import 'package:injectable/injectable.dart';
 import 'package:observable_ish/value/value.dart';
 import 'package:stacked/stacked.dart';
 
-@lazySingleton
 class ThemeService with ReactiveServiceMixin {
   RxValue<bool> _isDarkMode = RxValue<bool>(initial: false);
   bool get isDarkMode => _isDarkMode.value;

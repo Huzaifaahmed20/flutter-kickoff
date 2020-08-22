@@ -30,8 +30,8 @@ dependencies:
   stacked: ^1.7.4
   stacked_services: null
   auto_route: null
-  get_it: null
-  injectable: null
+  get_it: ^4.0.4
+  injectable: ^1.0.2
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -43,7 +43,7 @@ dev_dependencies:
     sdk: flutter
   build_runner: null
   auto_route_generator: null
-  injectable_generator: null
+  injectable_generator: ^1.0.4
 
 dependency_overrides:
   analyzer: '0.39.14'

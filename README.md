@@ -5,7 +5,13 @@ Flutter starter kit with stacked architecture
 ## Todo
 - Implement flavors configuration.
 
-## How to:
+# Add new screens and services:
+
+## Automatically:
+
+Use [Stacked CLI Automation tool](https://pub.dev/packages/stacked_cli)
+
+## Manually:
 
 ### **Add new screen**
 - create new folder in **ui/views** with respective name.

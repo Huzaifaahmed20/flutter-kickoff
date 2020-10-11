@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_kickoff/ui/theme/ThemeDark.dart';
 import 'package:flutter_kickoff/ui/theme/ThemeLight.dart';
-import 'package:injectable/injectable.dart';
 import 'package:observable_ish/value/value.dart';
 import 'package:stacked/stacked.dart';
 

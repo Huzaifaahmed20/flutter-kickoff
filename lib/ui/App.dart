@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_kickoff/ui/AppViewModel.dart';
 import 'package:flutter_kickoff/app/locator.dart';
 import 'package:flutter_kickoff/app/router.gr.dart';
-import 'package:flutter_kickoff/services/ThemeService.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 

@@ -22,7 +22,7 @@ Use [Stacked CLI Automation tool](https://pub.dev/packages/stacked_cli)
 
 - After that run this command in command line,
 
-        flutter pub run build_runner build
+        flutter pub run build_runner build --delete-conflicting-outputs
 
 
 ### **Add new service**
@@ -32,7 +32,7 @@ Use [Stacked CLI Automation tool](https://pub.dev/packages/stacked_cli)
 
 - After that run this command in command line,
 
-         flutter pub run build_runner build
+         flutter pub run build_runner build --delete-conflicting-outputs
 
 ### **Add new translation**
 - Click on link to view full configuration of translations [Easy Localization](https://pub.dev/packages/easy_localization).

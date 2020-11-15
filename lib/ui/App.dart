@@ -5,6 +5,8 @@ import 'package:flutter_kickoff/app/router.gr.dart';
 import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 
+import '../app/router.gr.dart';
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
           title: 'Flutter KickOff',
           theme: model.isDarkMode ? model.darkTheme : model.lightTheme,
           initialRoute: Routes.homeView,
-          onGenerateRoute: Router().onGenerateRoute,
+          onGenerateRoute: AppRouter().onGenerateRoute,
           navigatorKey: locator<NavigationService>().navigatorKey,
         );
       },

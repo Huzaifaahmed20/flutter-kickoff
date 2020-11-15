@@ -10,4 +10,4 @@ import 'package:flutter_kickoff/ui/views/startup/StartupView.dart';
     MaterialRoute(page: LoginView),
   ],
 )
-class $Router {}
+class $AppRouter {}

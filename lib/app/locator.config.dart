@@ -31,7 +31,6 @@ class _$Services extends Services {
   @override
   DialogService get dialogService => DialogService();
   @override
-  @override
   NavigationService get navigationService => NavigationService();
   @override
   ThemeService get themeService => ThemeService();
